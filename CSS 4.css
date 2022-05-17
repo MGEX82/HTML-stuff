@@ -1,0 +1,16 @@
+em {
+    color: blue;
+}
+article p {
+    color: red;
+}
+header > h1 {
+    color: limegreen;
+}
+p + footer {
+
+color: purple;
+}
+h1 ~ p {
+    background-color:grey ;
+}
