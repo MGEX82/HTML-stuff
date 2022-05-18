@@ -1,11 +1,9 @@
-let a;
-let b = "12345";
-let c = 12344;
-let d = true;
-let e = {a: "Javascript"};
+let totalMoney = 4000;
+let moneyPaidSoFar = 2348;
+let totalLeftToPay = totalMoney - moneyPaidSoFar;
 
-console.log(typeof(a));
-console.log(typeof(b));
-console.log(typeof(c));
-console.log(typeof(d));
-console.log(typeof(e));
+let str1 = 'The total bill is';
+let str2 = 'the remaining amount of money to be paid is';
+let str3 = str1 + totalMoney + str2 + totalLeftToPay;
+
+console.log(str3);
