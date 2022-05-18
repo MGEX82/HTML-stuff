@@ -1,5 +1,5 @@
 let totalMoney = 4000;
-let moneyPaidSoFar = 2348;
+let moneyPaidSoFar = 2648;
 let totalLeftToPay = totalMoney - moneyPaidSoFar;
 
 let str1 = 'The total bill is';
